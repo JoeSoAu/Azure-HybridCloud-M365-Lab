@@ -1,4 +1,4 @@
-\# Azure Hybrid Cloud \& M365 Lab
+\# Azure Hybrid Cloud \& M365 Lab (Intune \& Exchange Online)
 
 
 
