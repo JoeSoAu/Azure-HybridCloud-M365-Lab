@@ -1,216 +1,159 @@
-\# Azure Hybrid Cloud \& M365 Lab (Intune \& Exchange Online)
-
-
+# Azure Hybrid Cloud & M365 Lab (Intune & Exchange Online)
 
 This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrates an on-premises Active Directory with Azure Entra ID, Microsoft 365, Intune, and Exchange Online.
 
+---
 
+## Core Technologies
 
-\----
+* Windows Server 2022
 
+* Active Directory Domain Services (AD DS)
 
+* Microsoft Entra ID
 
-\## Core Technologies
+* Microsoft Entra Connect
 
+* Microsoft Intune (MDM)
 
+* Exchange Online
 
-\* Windows Server 2022
+* Hyper-V
 
-\* Active Directory Domain Services (AD DS)
+* PowerShell
 
-\* Microsoft Entra ID
+---
 
-\* Microsoft Entra Connect
+## Lab Scope
 
-\* Microsoft Intune (MDM/MAM)
+* Alternative UPN Suffix configuration
 
-\* Exchange Online
+* Custom domain integration
 
-\* Hyper-V
+* Exchange Online custom domain mail flow
 
-\* PowerShell
+* Entra Connect deployment
 
+* Password Hash Synchronization (PHS)
 
+* OU Filtering
 
-\----
+* Source Anchor configuration
 
+* Hybrid Microsoft Entra ID Join
 
+* Intune Auto Enrollment
 
-\## Lab Scope
+* Device synchronization
 
+* Compliance policies
 
+* PowerShell administration
 
-\* Alternative UPN Suffix configuration
+* Troubleshooting and validation
 
-\* Custom domain integration
+---
 
-\* Exchange Online custom domain mail flow
+## Lab Environment
 
-\* Entra Connect deployment
+### On-Premises
 
-\* Password Hash Synchronization (PHS)
+* Domain Controller: Windows Server 2022
 
-\* OU Filtering
+* Active Directory Domain: joeso.online
 
-\* Source Anchor configuration
+* Client Endpoint: Windows 11 (Domain-Joined)
 
-\* Hybrid Microsoft Entra ID Join
+* Virtualization: Hyper-V Environment
 
-\* Intune Auto Enrollment
+### Cloud
 
-\* Device synchronization
+* Microsoft Azure Entra ID
 
-\* Compliance policies
+* Microsoft Intune
 
-\* PowerShell administration
+* Microsoft 365 Business Standard
 
-\* Troubleshooting and validation
+* Exchange Online
 
+* Custom Domain: joeso.au
 
+---
 
-\----
+## Key Outcomes & Achievements
 
+## Key Outcomes
 
+* Configured Alternative UPN Suffix for hybrid identity sign-in (Same as Azure Custom Domain)
 
-\## Lab Environment
+* Synchronized on-premises users and devices with Microsoft Entra ID
 
+* Implemented Hybrid Microsoft Entra ID Join for AD computers
 
+* Configured Microsoft Intune Auto Enrollment for AD Computers
 
-\### On-Premises
+* Configured a custom domain with Microsoft 365 and Exchange Online
 
-\* Domain Controller: Windows Server 2022
+* Configured custom domain mailboxes and email services
 
-\* Active Directory Domain: joeso.online
+* Validated device registration and synchronization
 
-\* Client Endpoint: Windows 11 (Domain-Joined)
+* troubleshooting using PowerShell, Azure Entra Admin Center, Intune Admin Center, Exchange Online Admin Center
 
-\* Virtualization: Hyper-V Environment
+---
 
+## Troubleshooting
 
+### Entra Connect & Sync
 
-\### Cloud
+* AD users unable to sign in using custom domain UPN
 
-\* Microsoft Azure Entra ID
+* Entra Connect sign-in blocked by IE Enhanced Security Config
 
-\* Microsoft Intune
+### Hybrid Join
 
-\* Microsoft 365 Business Standard
+* Hybrid Join failed because the Computer OU was not included in Entra Connect OU filtering.
 
-\* Exchange Online
+* Duplicate Hyper-V VM identity prevented Entra Join*
 
-\* Custom Domain: joeso.au
+* Hybrid Join failed due to missing SCP configuration
 
+### Intune Enrollment
 
+* Auto Enrollment did not trigger due to missing of MDM user scope config in Intune
 
-\----
+* Intune Auto Enrollment failed due to missing of Intune license and Azure Entra ID P1/P2 License
 
+* Intune Auto Enrollment failed due to missing MDM GPO
 
+### Exchange Online custom domain setup
 
-\## Key Outcomes \& Achievements
+* SPF TXT record deployment issue with Crazy Domains DNS hosting
 
+* Exchange Online shared mailbox did not automatically use the custom domain
 
+---
 
-\## Key Outcomes
-
-
-
-\* Configured Alternative UPN Suffix for hybrid identity sign-in (Same as Azure Custom Domain)
-
-\* Synchronized on-premises users and devices with Microsoft Entra ID
-
-\* Implemented Hybrid Microsoft Entra ID Join for AD computers
-
-\* Configured Microsoft Intune Auto Enrollment for AD Computers
-
-\* Configured a custom domain with Microsoft 365 and Exchange Online
-
-\* Configured custom domain mailboxes and email services
-
-\* Validated device registration and synchronization
-
-\* troubleshooting using PowerShell, Azure Entra Admin Center, Intune Admin Center, Exchange Online Admin Center
-
-
-
-\----
-
-
-
-\## Troubleshooting
-
-
-
-\### Entra Connect \& Sync
-
-\* AD users unable to sign in using custom domain UPN
-
-\* Entra Connect sign-in blocked by IE Enhanced Security Config
-
-
-
-\### Hybrid Join
-
-\* Hybrid Join failed because the Computer OU was not included in Entra Connect OU filtering.
-
-\* Duplicate Hyper-V VM identity prevented Entra Join\*
-
-\* Hybrid Join failed due to missing SCP configuration
-
-
-
-\### Intune Enrollment
-
-\* Auto Enrollment did not trigger due to missing of MDM user scope config in Intune
-
-\* Intune Auto Enrollment failed due to missing of Intune license and Azure Entra ID P1/P2 License
-
-\* Intune Auto Enrollment failed due to missing MDM GPO
-
-
-
-\### Exchange Online custom domain setup
-
-\* SPF TXT record deployment issue with Crazy Domains DNS hosting
-
-\* Exchange Online shared mailbox did not automatically use the custom domain 
-
-
-
-\----
-
-
-
-\## Useful Commands
-
-
+## Useful Commands
 
 ```powershell
-
-\# Trigger delta sync
+# Trigger delta sync
 
 Start-ADSyncSyncCycle -PolicyType Delta
 
-
-
-\# Trigger full sync
+# Trigger full sync
 
 Start-ADSyncSyncCycle -PolicyType Initial
 
-
-
-\# Check Entra Connect sync schedule
+# Check Entra Connect sync schedule
 
 Get-ADSyncScheduler
 
-
-
-\# Check Hybrid Join / Entra registration status
+# Check Hybrid Join / Entra registration status
 
 dsregcmd /status
 
-
-
-\# Force Group Policy update
+# Force Group Policy update
 
 gpupdate /force
-
+```
