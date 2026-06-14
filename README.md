@@ -1,194 +1,222 @@
-\# Azure Hybrid Cloud M365 Lab
+\# 🌐 Azure Hybrid Cloud \& M365 Lab
 
 
 
-This lab demonstrates the setup of an Hybrid-cloud of an On-prem Active Directory integrating with on-premises Microsoft Azur Entra ID and Microsoft 365.
+A comprehensive, production-grade hybrid cloud lab demonstrating the integration of an on-premises enterprise Active Directory infrastructure with Microsoft Entra ID, Microsoft Intune, and Microsoft 365.
 
 
 
-\## Technologies
+\---
 
 
 
-\- Windows Server 2022
+\## 🛠️ Technologies \& Skills Demonstrated
 
-\- Active Directory Domain Services
 
-\- Microsoft Entra ID
 
-\- Microsoft Entra Connect
+!\[Windows Server](https://img.shields.io/badge/Windows%20Server-2022-blue?logo=microsoft)
 
-\- Microsoft Intune
+!\[Azure](https://img.shields.io/badge/Microsoft-Azure-0089D6?logo=microsoft-azure)
 
-\- Exchange Online
+!\[Microsoft 365](https://img.shields.io/badge/Microsoft-365-0078D4?logo=microsoft-365)
 
-\- Hyper-V
+!\[PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell\&logoColor=white)
 
-\- PowerShell
 
 
+\* \*\*Directory Services:\*\* Active Directory Domain Services (AD DS), Microsoft Entra ID
 
-\## Lab Scope
+\* \*\*Hybrid Identity:\*\* Microsoft Entra Connect, Password Hash Synchronization (PHS)
 
+\* \*\*Modern Management:\*\* Microsoft Intune (MDM/MAM), Hybrid Entra Join
 
+\* \*\*Enterprise SaaS:\*\* Exchange Online, Custom Domain Routing
 
-\- Alternative UPN Suffix configuration (AD)
+\* \*\*Virtualization:\*\* Hyper-V (Lab Hosting)
 
-\- Custom domain integration (Entra ID)
 
-\- Exchange Online custom domain mail flow
 
-\- Entra Connect deployment
+\---
 
-\- Password Hash Synchronization
 
-\- OU Filtering
 
-\- Source Anchor configuration
+\## 📋 Lab Scope
 
-\- Hybrid Microsoft Entra ID Join
 
-\- Intune Auto Enrollment
 
-\- Device synchronization
+This lab covers the end-to-end deployment, configuration, and administrative validation of the following hybrid enterprise components:
 
-\- Compliance policies
 
-\- PowerShell cmdlet administration
 
-\- Troubleshooting and validation
+\* \*\*Identity \& Directory Sync:\*\*
 
+&#x20; \* Alternative UPN Suffix configuration (AD)
 
+&#x20; \* Entra Connect deployment, OU Filtering, and Source Anchor configuration
 
-\## Lab Environment
+&#x20; \* User \& Device synchronization
 
+\* \*\*Device Management:\*\*
 
+&#x20; \* Hybrid Microsoft Entra ID Join implementation
 
-\### On-Premises
+&#x20; \* Intune Auto Enrollment \& Enrollment GPO configuration
 
+&#x20; \* Compliance policies enforcement
 
+\* \*\*Cloud Messaging:\*\*
 
-\- Windows Server 2022 Domain Controller
+&#x20; \* Custom domain integration (`joeso.au` to Entra ID)
 
-\- Active Directory Domain: joeso.online
+&#x20; \* Exchange Online custom domain mail flow and routing
 
-\- Windows 11 Client
+\* \*\*Administration:\*\*
 
-\- Hyper-V Virtual Environment
+&#x20; \* PowerShell cmdlet administration, validation, and advanced engineering practices
 
 
 
-\### Cloud Services
+\---
 
 
 
-\- Microsoft Entra ID
+\## 💻 Lab Environment Architecture
 
-\- Microsoft Intune
 
-\- Microsoft 365 Business Standard
 
-\- Exchange Online
+\### 🏢 On-Premises Infrastructure
 
-\- Custom Domain: joeso.au
+\* \*\*Domain Controller:\*\* Windows Server 2022
 
+\* \*\*Active Directory Domain:\*\* `joeso.online`
 
+\* \*\*Client Endpoint:\*\* Windows 11 Enterprise (Domain-Joined)
 
-\## Key Outcomes
+\* \*\*Hypervisor:\*\* Hyper-V Virtual Environment
 
 
 
-\- Configured Alternative UPN Suffix for cloud sign-in
+\### ☁️ Cloud Services (Tenant)
 
-\- Synchronized on-premises users and devices to Entra ID
+\* Microsoft Entra ID
 
-\- Implemented Hybrid Microsoft Entra ID Join
+\* Microsoft Intune
 
-\- Configured Microsoft Intune Auto Enrollment
+\* Microsoft 365 Business Standard
 
-\- Connected a custom domain to Microsoft 365
+\* Exchange Online
 
-\- Configured Exchange Online custom domain mailboxes
+\* \*\*Verified Custom Domain:\*\* `joeso.au`
 
-\- Validated device registration 
 
-\- Performed troubleshooting using PowerShell and Microsoft Admin Portals
 
+\---
 
 
-\## Troubleshooting Covered
 
+\## 🚀 Key Outcomes \& Achievements
 
 
-\### Hybrid Join Issues
 
+\* \*\*Seamless Cloud Sign-In:\*\* Configured Alternative UPN Suffix matching the verified cloud domain for a single-sign-on user experience.
 
+\* \*\*Hybrid Identity Lifecycle:\*\* Successfully synchronized on-premises users and compute devices to Entra ID using Entra Connect.
 
-\- SCP validation
+\* \*\*Modern Endpoint Management:\*\* Implemented Hybrid Microsoft Entra ID Join and automated cloud enrollment into Microsoft Intune via Group Policy (GPO).
 
-\- Device registration troubleshooting
+\* \*\*Enterprise Mail Flow:\*\* Connected and validated a custom domain with Exchange Online, creating production-ready custom domain mailboxes.
 
-\- Duplicate VM identity issues
+\* \*\*Validation:\*\* Performed deep-dive validation using administrative portals, event logs, and client-side utilities.
 
-\- dsregcmd analysis
 
 
+\---
 
-\### Entra Connect Issues
 
 
+\## 🔍 Troubleshooting Covered (Enterprise Support Skills)
 
-\- OU filtering
 
-\- User synchronization
 
-\- Computer synchronization
+> \*\*Note for Recruiters:\*\* A major focus of this lab was simulating, diagnosing, and resolving real-world deployment road-blocks.
 
-\- Source Anchor validation
 
 
+\### 🛑 Hybrid Join \& Registration Issues
 
-\### Intune Enrollment Issues
+\* \*\*SCP Validation:\*\* Fixed Service Connection Point (SCP) configuration misalignments in Active Directory.
 
+\* \*\*Device Registration:\*\* Diagnosed registration failures using `dsregcmd /status` analysis and Event Viewer (`User Device Registration` logs).
 
+\* \*\*Identity Duplication:\*\* Resolved duplicate VM identity conflicts in the cloud directory.
 
-\- MDM User Scope configuration
 
-\- Intune licensing verification
 
-\- Auto Enrollment GPO configuration
+\### 🔄 Entra Connect \& Sync Synchronization
 
-\- Device enrollment validation
+\* \*\*OU Filtering Issues:\*\* Corrected synchronization scope problems caused by incorrect OU selection during delta syncs.
 
+\* \*\*Object Hard-Matching:\*\* Validated Source Anchor configurations to ensure seamless user/computer correlation.
 
 
-\### Exchange Online
 
+\### 📱 Intune Enrollment Roadblocks
 
+\* \*\*MDM User Scope:\*\* Troubleshot enrollment blocks by correctly scoping Entra ID MDM discovery URLs.
 
-\- Custom domain verification
+\* \*\*Licensing Verification:\*\* Resolved onboarding issues stemming from missing Microsoft 365 / Intune license assignments.
 
-\- Mailbox UPN updates
+\* \*\*GPO Enforcement:\*\* Traced Group Policy application failures preventing Windows 11 from triggering auto-enrollment.
 
-\- SMTP address configuration
 
-\- Outlook Autodiscover testing
 
+\### ✉️ Exchange Online Mail Flow
 
+\* \*\*UPN Updates:\*\* Fixed mail routing failures by programmatically updating user Principal Names and primary SMTP addresses.
 
-\## Useful PowerShell Commands
+\* \*\*Autodiscover Testing:\*\* Diagnosed and corrected DNS Autodiscover records to ensure Outlook clients connected without prompt errors.
+
+
+
+\---
+
+
+
+\## 🔧 Useful PowerShell Commands
+
+
+
+The following cmdlets were heavily utilized throughout the provisioning, testing, and lifecycle management phases of the lab:
 
 
 
 ```powershell
 
+\# Trigger a Delta synchronization to sync changes (Users/OU/Devices)
+
 Start-ADSyncSyncCycle -PolicyType Delta
+
+
+
+\# Trigger a Full synchronization cycle
 
 Start-ADSyncSyncCycle -PolicyType Initial
 
+
+
+\# Check the current Azure AD Connect synchronization schedule and status
+
 Get-ADSyncScheduler
 
+
+
+\# Check local client machine's Hybrid Join and Entra ID status
+
 dsregcmd /status
+
+
+
+\# Force immediate Group Policy update on client machines
 
 gpupdate /force
 
