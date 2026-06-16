@@ -5,7 +5,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 
 <p align="center">  
-<img src="images/architecture.jpg" alt="Lab Architecture" width="1000">  
+<img src="images/arch.jpg" alt="Lab Architecture" width="1000">  
 </p>
 
 ---
