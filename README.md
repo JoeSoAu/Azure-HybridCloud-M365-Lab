@@ -2,6 +2,12 @@
 
 This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrates an on-premises Active Directory with Azure Entra ID, Microsoft 365, Intune, and Exchange Online.
 
+<h2>Lab Architecture</h2>
+
+<p align="center">  
+<img src="images/architecture.jpg" alt="Lab Architecture" width="1000">  
+</p>
+
 ---
 
 ## Core Technologies
@@ -21,8 +27,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 * Hyper-V
 
 * PowerShell
-
-
 
 ## Lab Scope
 
@@ -52,8 +56,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Troubleshooting and validation
 
-
-
 ## Lab Environment
 
 ### On-Premises
@@ -78,8 +80,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Custom Domain: joeso.au
 
-
-
 ## Key Outcomes & Achievements
 
 ## Key Outcomes
@@ -99,8 +99,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 * Validated device registration and synchronization
 
 * troubleshooting using PowerShell, Azure Entra Admin Center, Intune Admin Center, Exchange Online Admin Center
-
-
 
 ## Troubleshooting
 
