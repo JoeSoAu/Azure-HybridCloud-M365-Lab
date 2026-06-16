@@ -22,7 +22,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * PowerShell
 
----
+
 
 ## Lab Scope
 
@@ -52,7 +52,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Troubleshooting and validation
 
----
+
 
 ## Lab Environment
 
@@ -78,7 +78,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Custom Domain: joeso.au
 
----
+
 
 ## Key Outcomes & Achievements
 
@@ -100,7 +100,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * troubleshooting using PowerShell, Azure Entra Admin Center, Intune Admin Center, Exchange Online Admin Center
 
----
+
 
 ## Troubleshooting
 
