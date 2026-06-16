@@ -2,7 +2,7 @@
 
 This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrates an on-premises Active Directory with Azure Entra ID, Microsoft 365, Intune, and Exchange Online.
 
-<h2>Lab Architecture</h2>
+
 
 <p align="center">  
 <img src="images/architecture.jpg" alt="Lab Architecture" width="1000">  
