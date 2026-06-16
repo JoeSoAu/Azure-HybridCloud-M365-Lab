@@ -8,8 +8,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 <img src="images/arch.jpg" alt="Lab Architecture" width="1000">  
 </p>
 
----
-
 ## Core Technologies
 
 * Windows Server 2022
