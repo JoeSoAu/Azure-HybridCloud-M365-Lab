@@ -33,7 +33,7 @@ Microsoft 365 Admin Centre→ Settings→ Domains→ Add Domain
 then fill in the info from the page to our DNS hosting to do the domain name verification
 
 <p align="center">  
-<img src="../screenshots/domainverify.jpg" alt="Exchange Online DNS Records" width="800">  
+<img src="../screenshots/domainverify.jpg" alt="Exchange Online DNS Records" width="600">  
 </p>
 
 After verification completed successfully, the domain status changed to:
@@ -56,7 +56,7 @@ After the domain was verified, Microsoft 365 generated the DNS records required 
 
 
 <p align="center">  
-<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="800">  
+<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="600">  
 </p>
 
 
