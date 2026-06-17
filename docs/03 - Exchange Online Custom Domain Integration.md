@@ -56,16 +56,16 @@ After the domain was verified, Microsoft 365 generated the DNS records required 
 
 
 <p align="center">  
-<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="700">  
+<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="800">  
 </p>
 
 
 
-Then the page showed 3 DNS record, which you need to create tehm in DNS Hosting - CloudFlare
+Then the page showed 3 DNS record, which you need to create tehm in DNS Hosting - CloudFlare as following
 
 
 <p align="center">  
-<img src="../screenshots/maildnsrecord.jpg" alt="Exchange Online DNS Records" width="700">  
+<img src="../screenshots/maildnsrecord.jpg" alt="Exchange Online DNS Records" width="800">  
 </p>
 
 
