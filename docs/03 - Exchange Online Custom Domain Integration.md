@@ -56,7 +56,7 @@ After the domain was verified, Microsoft 365 generated the DNS records required 
 
 
 <p align="center">  
-<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="600">  
+<img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="700">  
 </p>
 
 
@@ -65,7 +65,7 @@ Then the page showed 3 DNS record, which you need to create tehm in DNS Hosting 
 
 
 <p align="center">  
-<img src="../screenshots/maildnsrecord.jpg" alt="Exchange Online DNS Records" width="600">  
+<img src="../screenshots/maildnsrecord.jpg" alt="Exchange Online DNS Records" width="700">  
 </p>
 
 
