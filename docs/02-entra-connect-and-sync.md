@@ -147,22 +147,22 @@ However, for this lab environment, We installed the  Entra Connect in DC to Simp
 
 #### Key Procedures
 
-##### 1. Select the user sign-in method--Password Hash Synchronization
+#### 1. Select the user sign-in method--Password Hash Synchronization
 
 Select **Password Hash Synchronization **as the authentication method.
 Instead of synchronizing users' plain text passwords, Entra Connect synchronizes a secure hash of the on-premises AD password to Entra ID.As a result, users can use their on-premises AD password to sign in to: Microsoft 365 / Outlook / Teams / Microsoft Entra ID
 
-##### 2. Create the a dedicated AD account for Entra ID to do the sync
+#### 2. Create the a dedicated AD account for Entra ID to do the sync
 
 ![AD Sync Service Account](../screenshots/Connect2.jpg)
 
-##### 3. Select the sign-in attribute
+#### 3. Select the sign-in attribute
 
 Which attribute of AD users to sign in Entra ID? Choose **userPrincipleName** like mike_s@joeso.au
 
 ![UPN Sign-in Attribute](../screenshots/Connect3.jpg)
 
-##### 4. Configure Domain and OU Filtering
+#### 4. Configure Domain and OU Filtering
 
 Domain and OU filtering was configured to control which on-premises AD objects will be synchronized to Entra ID.
 
@@ -172,7 +172,7 @@ If the "Sync all" option is selected, all users, groups, computers, and built-in
 
 ![OU Filtering](../screenshots/connect4.jpg)
 
-##### **5. User Identification Across Multiple Directories**
+#### **5. User Identification Across Multiple Directories**
 
 Entra Connect needs to determine how users should be represented when sync from Multiple AD forests.
 
@@ -201,7 +201,7 @@ assuming that each synchronized user exists only once within the environment
 
 ![User Identification Across Directories](../screenshots/connect5.jpg)
 
-##### 6. How users should be identified with Entra ID - Source Anchor
+#### 6. How users should be identified with Entra ID - Source Anchor
 
 Entra ID must be able to uniquely identify synchronized users, even if attributes such as username, UPN, or display name change over time.
 
@@ -222,13 +222,13 @@ Selecte `Let Azure manage the source anchor`
 
 This simplifies deployment by allowing Entra Connect to automatically manage the identity mapping between AD and Entra ID.
 
-##### 7. Optional features
+#### 7. Optional features
 
 ![Optional Features](../screenshots/Connect7.jpg)
 
 In this lab, Password Hash Synchronization was enabled to implement a one-way sync from on-prem AD to Entra ID. Other features such as Password Writeback were not enabled.
 
-##### 8. Review the configuration and complete the installation
+#### 8. Review the configuration and complete the installation
 
 After clicking the Finish button, synchronization is started immediately.
 
