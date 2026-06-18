@@ -6,7 +6,7 @@ Building the hybrid cloud environment was not completely smooth. Several issues 
 
 ---
 
-## Duplicate Device Identity After Hyper-V VM Import
+## 1) Duplicate Device Identity After Hyper-V VM Import
 
 ### Problem
 
@@ -82,7 +82,7 @@ When using Hyper-V Export and Import, device identity information from previous 
 
 ---
 
-## AD Computer Failed to Hybrid Join Entra ID
+## 2) AD Computer Failed to Hybrid Join Entra ID
 
 ### Problem
 
@@ -184,7 +184,7 @@ The device must also know which Entra tenant it should register with, and this i
 
 ---
 
-## Intune Auto Enrollment Not Triggering
+## 3) Intune Auto Enrollment Not Triggering
 
 ### Problem
 
@@ -250,7 +250,7 @@ The troubleshooting process gave me a much deeper understanding of Hybrid Identi
 
 
 
-## AD User Cannot Sign In to Microsoft 365 Using Custom Domain
+## 4) AD User Cannot Sign In to Microsoft 365 Using Custom Domain
 
 ### Problem
 
@@ -316,7 +316,7 @@ The user UPN must also be updated in AD before Entra Connect can synchronize the
 
 ---
 
-## Exchange Online Shared Mailboxes Not Updated to Custom Domain
+## 5) Exchange Online Shared Mailboxes Not Updated to Custom Domain
 
 ### Problem
 
@@ -372,7 +372,7 @@ User mailboxes and shared mailboxes should both be verified after a domain migra
 
 ---
 
-## Internet Explorer Enhanced Security Configuration Blocking Entra Connect
+## 7) Internet Explorer Enhanced Security Configuration Blocking Entra Connect
 
 ### Problem
 
@@ -398,5 +398,3 @@ DC → Server Manager→ Local Server
 ```
 
 After disabling IE ESC, the authentication window loaded successfully and Entra Connect can continure to run
-
-# 
