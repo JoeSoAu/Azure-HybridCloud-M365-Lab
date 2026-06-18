@@ -84,8 +84,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Custom Domain: joeso.au
 
-## Key Outcomes & Achievements
-
 ## Key Outcomes
 
 * Configured Alternative UPN Suffix for hybrid identity sign-in (Same as Azure Custom Domain)
@@ -116,7 +114,7 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Hybrid Join failed because the Computer OU was not included in Entra Connect OU filtering.
 
-* Duplicate Hyper-V VM identity prevented Entra Join*
+* Duplicate Hyper-V VM identity prevented Entra Join
 
 * Hybrid Join failed due to missing SCP configuration
 
