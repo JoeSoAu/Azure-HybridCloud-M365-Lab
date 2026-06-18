@@ -4,17 +4,13 @@
 
 In the previous stage, a hybrid identity environment was established between the on-prem AD and Entra ID using Entra Connect. Users were successfully synchronized and could sign in to Microsoft 365 services. Also, Exchange Online mailboxes have been established in earlier time. However, adding custom domain to Entra ID and syncing users from AD will not change the Exchange Online mailbox domain automatically for boht pure M365 users and synced AD users. Now, the domain name of Exchange Online mailbox remains as Mircrosoft Entra ID domain like 
 
-
 `user@appleoasis123.onmicrosoft.com`
-
 
 The goal of this stage is to integrate the custom organisation's public domain:
 
 `joeso.au`
 
 to the Exchange Online Mailboxes  `use@joeso.au`
-
-
 
 ## 1. Add Custom Domain to Entra ID (Done in the previous stage)
 
@@ -46,29 +42,21 @@ At this stage, the domain became available for Microsoft 365 identities and Exch
 
 ---
 
-## Connect the Domain to Exchange Online
+## 2. Connect the Domain to Exchange Online
 
 After the domain was verified, Microsoft 365 generated the DNS records required for Exchange Online.
 
-
-
 `Microsoft 365 Admin Centre  → Settings  → Domains  → Select the custom domain (select joeso.au ) → Add your own DNS records  → Continue`
-
 
 <p align="center">  
 <img src="../screenshots/dnsrecord.jpg" alt="Exchange Online DNS Records" width="800">  
 </p>
 
-
-
 Then the page showed 3 DNS record, which you need to create tehm in DNS Hosting - CloudFlare as following
-
 
 <p align="center">  
 <img src="../screenshots/maildnsrecord.jpg" alt="Exchange Online DNS Records" width="800">  
 </p>
-
-
 
 ### MX Record
 
@@ -137,11 +125,9 @@ This record informs other mail servers that Microsoft 365 is authorized to send 
 joeso.au
 ```
 
-
-
 ---
 
-## Update User Primary Username and Email Address
+## 3. Update User Primary Username and Email Address
 
 After the custom domain was connected, users did not automatically switch to the new domain.
 
