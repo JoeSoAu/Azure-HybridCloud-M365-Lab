@@ -2,11 +2,18 @@
 
 This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrates an on-premises Active Directory with Azure Entra ID, Microsoft 365, Intune, and Exchange Online.
 
-
-
 <p align="center">  
 <img src="images/arch.jpg" alt="Lab Architecture" width="1000">  
 </p>
+
+## ## Documentation
+
+- [01 - Overview and Design](docs/01-overview-and-design.md)  
+- [02 - Entra Connect and Directory Synchronization](docs/02-entra-connect-and-sync.md)  
+- [03 - Exchange Online Custom Domain Integration](docs/03-exchange-online-custom-domain.md)  
+- [04 - Device Hybrid Join and Intune Enrollment](docs/04-Device-hybrid-join-and-intune.md)  
+- [05 - Troubleshooting and Lessons Learned](docs/05-troubleshooting.md)
+- 
 
 ## Core Technologies
 
