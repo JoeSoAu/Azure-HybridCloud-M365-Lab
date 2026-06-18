@@ -14,8 +14,6 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 - [04 - Device Hybrid Join and Intune Enrollment](docs/04-Device-hybrid-join-and-intune.md)  
 - [05 - Troubleshooting and Lessons Learned](docs/05-troubleshooting.md)
 
-
-
 ## Core Technologies
 
 * Windows Server 2022
