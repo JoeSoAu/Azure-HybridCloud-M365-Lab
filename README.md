@@ -14,8 +14,8 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 - [02 - Entra Connect and Directory Synchronization](docs/02-entra-connect-and-sync.md)  
 - [03 - Exchange Online Custom Domain Integration](docs/03-ExchangeOnline-Custom-Domain-Integration.md)  
 - [04 - Device Hybrid Join and Intune Enrollment](docs/04-Device-hybrid-join-and-intune.md)  
-- [05 - Conditional Access and Multi-Factor Authentication(MFA)](Docs/05-Conditional-Access-and-MFA.md)
-- [06 - Troubleshooting and Lessons Learned](docs/05-troubleshooting.md)
+- [05 - Conditional Access and Multi-Factor Authentication(MFA)](docs/05-Conditional-Access-and-MFA.md)
+- [06 - Troubleshooting and Lessons Learned](docs/06-troubleshooting.md)
 
 ## Core Technologies
 
