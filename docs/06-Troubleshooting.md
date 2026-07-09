@@ -1,4 +1,4 @@
-# 05 - Troubleshooting and Lessons Learned
+# 06 - Troubleshooting and Lessons Learned
 
 ## Background
 

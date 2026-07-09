@@ -1,12 +1,14 @@
-# Conditional Access and Multi-Factor Authentication
+# 05 Conditional Access and Multi-Factor Authentication
 
 ## Overview
 
-Passwords alone are no longer sufficient to protect enterprise identities. Even strong passwords can be compromised through phishing, password reuse or credential leaks.
+**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evaluating conditions such as location, client apps, or device before granting access.
 
-Microsoft Entra ID addresses this risk by combining **Conditional Access** and **Multi-Factor Authentication (MFA)** to enforce additional identity verification based on organizational security policies.
+**Multi-Factor Authentication (MFA)** adds an additional verification apart from user's password. Instead of inputting a password alone, users must also verify their identity using another authentication method, such as Microsoft Authenticator.
 
-In this lab, Conditional Access policies were configured to require MFA for Azure Portal access and block legacy authentication. Microsoft Authenticator was used as the primary authentication method, and Microsoft Entra Sign-in Logs were used to validate that the policies were successfully applied.
+In this lab, Conditional Access policies are configured to require MFA for Azure Portal access and block legacy authentication. The authentication method of MFA used include Microsoft Authenticator and SMS.
+
+
 
 ---
 
@@ -14,11 +16,11 @@ In this lab, Conditional Access policies were configured to require MFA for Azur
 
 This lab demonstrates how to:
 
-- Configure Authentication Methods in Microsoft Entra ID
+- Configure Authentication Methods for Users in Microsoft Entra ID
 - Configure Conditional Access policies
 - Require MFA for Azure Portal access
 - Block Legacy Authentication
-- Register Microsoft Authenticator
+- Register SMS and Microsoft Authenticator
 - Validate policy enforcement using Sign-in Logs
 - Troubleshoot Conditional Access policy evaluation
 
@@ -26,28 +28,21 @@ This lab demonstrates how to:
 
 ## Authentication Flow
 
-Unlike traditional on-premises Active Directory, Microsoft Entra separates authentication methods from access policies.
-
 The authentication process used in this lab is shown below.
 
 ```
 User Sign-in
       │
-      ▼
 Conditional Access Evaluation
       │
-      ▼
 Require MFA?
       │
-      ▼
 Authentication Methods
       │
-(Microsoft Authenticator)
+(Microsoft Authenticator / SMS )
       │
-      ▼
 MFA Registration (First Sign-in)
       │
-      ▼
 Azure Portal Access
 ```
 
@@ -55,7 +50,7 @@ Conditional Access determines **when** MFA is required, while Authentication Met
 
 ---
 
-# Authentication Methods
+## Authentication Methods
 
 Authentication Methods are configured independently from Conditional Access policies.
 
@@ -69,9 +64,11 @@ For this lab:
 
 This centralized design allows administrators to modify available authentication methods without editing every Conditional Access policy.
 
+> <img title="" src="../screenshots/c01.jpg" alt="" width="70%" data-align="center">
+
 ---
 
-# Conditional Access Policy 1 – Require MFA for Azure Portal
+## Conditional Access Policy 1 – Require MFA for Azure Portal
 
 The first Conditional Access policy was created to require Multi-Factor Authentication whenever members of the Finance security group access Azure Portal.
 
@@ -94,7 +91,7 @@ This policy protects administrative access to Azure resources by requiring an ad
 
 ---
 
-# Conditional Access Policy 2 – Block Legacy Authentication
+## Conditional Access Policy 2 – Block Legacy Authentication
 
 Legacy authentication protocols such as POP3, IMAP, SMTP AUTH and Exchange ActiveSync do not support modern authentication or MFA.
 
@@ -121,7 +118,7 @@ This prevents users from bypassing MFA through older authentication protocols.
 
 ---
 
-# Multi-Factor Authentication Registration
+## Multi-Factor Authentication Registration
 
 After Conditional Access was enabled, the test user signed in to Azure Portal.
 
@@ -135,7 +132,7 @@ After registration was completed, subsequent sign-ins required approval through 
 
 ---
 
-# Authentication Methods vs Conditional Access
+## Authentication Methods vs Conditional Access
 
 One important concept learned during this lab is that Authentication Methods and Conditional Access serve different purposes.
 
@@ -150,7 +147,7 @@ When MFA is required, Microsoft Entra evaluates the Authentication Method Polici
 
 ---
 
-# Policy Validation
+## Policy Validation
 
 After completing MFA registration, Azure Portal sign-in was tested again.
 
@@ -167,7 +164,7 @@ The Sign-in Logs provide one of the most valuable troubleshooting tools for admi
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
 ## Conditional Access Policy Was Not Applied
 
@@ -220,7 +217,7 @@ Authentication Methods define which MFA methods users may register. Conditional 
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
 This lab provided practical experience with Microsoft Entra identity protection and policy-based access control.
 
