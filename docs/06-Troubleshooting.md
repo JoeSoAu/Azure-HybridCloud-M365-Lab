@@ -413,7 +413,7 @@ We can see from the sign-in logs, Conditional Access Policy: CA001 about the MFA
 
 ### Investigation
 
-Two configuration issues identified.
+**2 configuration issues** identified.
 
 The first issue was that the policy remained in **Report-only** mode instead of **On**. Report-only mode evaluates policies without enforcing them.
 
