@@ -425,9 +425,9 @@ A new Security Group named **Finance** was created, the test user was added to t
 
 After signing in again, Sign-in Logs showed that the policy was successfully applied.
 
-> <img title="" src="../screenshots/c18.jpg" alt="" width="50%" data-align="center">
+> <img title="" src="../screenshots/c18.jpg" alt="" width="30%" data-align="center">
 
-> <img title="" src="../screenshots/c19.jpg" alt="" width="90%" data-align="center">
+> <img title="" src="../screenshots/c19.jpg" alt="" width="70%" data-align="center">
 
 
 
