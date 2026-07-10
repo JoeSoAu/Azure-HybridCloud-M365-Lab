@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrates an on-premises Active Directory with Azure Entra ID, Microsoft 365, Intune, and Exchange Online.
+This lab demonstrates the setup of a Microsoft Azure **Hybrid cloud** integrating an **on-prem Active Directory** with Microsoft **Entra ID**, **Microsoft 365**, **Exchange Online** and **Intune**. The lab also demonstrates **Conditional Access** and **Multi-Factor Authentication (MFA)** to provide secure identity and access management for cloud resources.
 
 <p align="center">  
 <img src="images/arch.jpg" alt="Lab Architecture" width="1000">  
@@ -24,6 +24,10 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 * Active Directory Domain Services (AD DS)
 
 * Microsoft Entra ID
+
+* Conditional Access
+
+* Multi-Factor Authentication
 
 * Microsoft Entra Connect
 
@@ -63,6 +67,14 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 
 * Troubleshooting and validation
 
+* Conditional Access policies 
+
+* Multi-Factor Authentication (MFA) 
+
+* Authentication Methods 
+
+* Sign-in Logs validation
+
 ## Lab Environment
 
 ### On-Premises
@@ -90,19 +102,14 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 ## Key Outcomes
 
 * Configured Alternative UPN Suffix for hybrid identity sign-in (Same as Azure Custom Domain)
-
 * Synchronized on-premises users and devices with Microsoft Entra ID
-
 * Implemented Hybrid Microsoft Entra ID Join for AD computers
-
 * Configured Microsoft Intune Auto Enrollment for AD Computers
-
 * Configured a custom domain with Microsoft 365 and Exchange Online
-
 * Configured custom domain mailboxes and email services
-
 * Validated device registration and synchronization
-
+* Implemented Conditional Access policies
+* Configured Multi-Factor Authentication (MFA) 
 * troubleshooting using PowerShell, Azure Entra Admin Center, Intune Admin Center, Exchange Online Admin Center
 
 ## Troubleshooting
@@ -132,8 +139,11 @@ This lab demonstrates the setup of a Microsoft Azure Hybrid cloud that integrate
 ### Exchange Online custom domain setup
 
 * SPF TXT record deployment issue with Crazy Domains DNS hosting
-
 * Exchange Online shared mailbox did not automatically use the custom domain
+
+### Conditional Access and Multi-Factor Authentication (MFA)
+
+- Conditional Access Policy Was Not Applied due to Report Mode setting and wrong Group Type
 
 ---
 
