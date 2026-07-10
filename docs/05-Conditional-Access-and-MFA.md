@@ -173,9 +173,8 @@ In this lab, we have the following settings
   - Microsoft Authenticator: Finance Group
   - SMS: Finance Group
 - **Conditional Access Policies**
-  - CA001-Portal-MFA: Finance group members need MFA when using browser to access Azure admin Portal
-  - CA002-block-Legacy-Authentication： block all users from using legacy authentication to access exchange online and other clients
-    
+  - **CA001-Portal-MFA**: Finance group members need MFA when using browser to access Azure admin Portal
+  - **CA002-block-Legacy-Authentication**： block all users from using legacy authentication to access exchange online and other clients
 
 
 ## Create Conditional Access Policy 1 – Require MFA for Azure Portal
@@ -234,23 +233,23 @@ Since it is the first time that user sign in Azure Portal, and MFA is required b
 
 According to the authentication policies, the user can choose to register Microsoft Authenticator or SMS. We chose to register **SMS** here
 
-> <img title="" src="../screenshots/c10.jpg" alt="" width="60%" data-align="center">
+> <img title="" src="../screenshots/c10.jpg" alt="" width="50%" data-align="center">
 
-> <img title="" src="../screenshots/c11.jpg" alt="" width="60%" data-align="center">
+> <img title="" src="../screenshots/c11.jpg" alt="" width="50%" data-align="center">
 
 After registration was completed, subsequent sign-in required SMS authentication before the user can sign in the Azure Portal.
 
-<img title="" src="../screenshots/c13.jpg" alt="" width="60%" data-align="center">
+<img title="" src="../screenshots/c13.jpg" alt="" width="50%" data-align="center">
 
 
 
-><img title="" src="../screenshots/c12.jpg" alt="" width="70%" data-align="center">
+><img title="" src="../screenshots/c12.jpg" alt="" width="60%" data-align="center">
 
 ---
 
 
 
-## Policy Validation
+## Conditional Access Policies Validation
 
 Now the conditional access policies have been applied, user registered the MFA authentication method and sign in to portal. 
 
@@ -262,7 +261,7 @@ We can accomplish this by using the Sign-in Logs in the Entra ID Admin Portal
 Entra ID Admin Portal -> Monitoring & Health -> Sign-in Logs
 ```
 
-
+From the sign-in log, WE can see user Paul_s@joeso.au has signed in , and the **CA001-Portal-MFA** conditional Access has been applied successfully.
 
 > <img title="" src="../screenshots/c14.jpg" alt="" width="100%" data-align="center">*Screenshot: Sign-in Log showing CA001 applied successfully*
 
@@ -272,16 +271,15 @@ Entra ID Admin Portal -> Monitoring & Health -> Sign-in Logs
 
 This lab demonstrated how Microsoft Entra **Conditional Access** and **Multi-Factor Authentication** work together to secure cloud identities.
 
+Through technical research and hands-on implementation, I gained a much better understanding of how Conditional Access, Authentication Methods and MFA work together throughout the Azure Entra authentication process. The key takeaways from this lab are summarized as following
+
 ## Lessons Learned
 
-This lab provided practical experience with Microsoft Entra identity protection and policy-based access control.
-
-Key takeaways include:
-
+- Security Defaults provide built-in identity protection, but need to be disabled  if we use Conditional Access policies.
 - Authentication Methods and Conditional Access are independent components.
-- Conditional Access determines when MFA is required.
+
+- Conditional Access decides when MFA is required.
 - Authentication Methods determine which authentication methods users can register and use.
-- Microsoft Authenticator provides a more secure MFA experience than SMS-based authentication.
-- Sign-in Logs are essential for validating and troubleshooting Conditional Access policy evaluation.
-- Report-only mode is useful for testing policies before enforcement.
-- Security Groups are recommended when assigning Conditional Access policies in enterprise environments.
+- Sign-in Logs are useful for validating and troubleshooting Conditional Access policy evaluation.
+- Report-only mode is useful for testing policies before enforcement, but we need to turn it of and enable the policies before they begin to work.
+- Security Groups are recommended when assigning Conditional Access policies.
