@@ -398,3 +398,42 @@ DC → Server Manager→ Local Server
 ```
 
 After disabling IE ESC, the authentication window loaded successfully and Entra Connect can continure to run
+
+## 8）Conditional Access Policy Was Not Applied
+
+### Issue
+
+Although the test user successfully signed in to Azure Portal, the Sign-in Logs did not show that the Conditional Access policy had been applied.
+
+We can see from the sign-in logs, Conditional Access Policy: CA001 about the MFA requirement is not in the applied policy list. That means it has not been trigger. 
+
+> <img title="" src="../screenshots/c16.jpg" alt="" width="80%" data-align="center">
+
+> <img title="" src="../screenshots/c17.jpg" alt="" width="70%" data-align="center">
+
+### Investigation
+
+Two configuration issues identified.
+
+The first issue was that the policy remained in **Report-only** mode instead of **On**. Report-only mode evaluates policies without enforcing them.
+
+After changing the policy state to **On**, the policy still did not apply.
+
+Further investigation showed that the policy targeted a **Microsoft 365 Group** "Sales" instead of a **Security Group**.
+
+A new Security Group named **Finance** was created, the test user was added to the group, and the Conditional Access policy was updated to target the new Security Group.
+
+After signing in again, Sign-in Logs showed that the policy was successfully applied.
+
+> <img title="" src="../screenshots/c18.jpg" alt="" width="50%" data-align="center">
+
+> <img title="" src="../screenshots/c19.jpg" alt="" width="90%" data-align="center">
+
+
+
+### Resolution
+
+- Changed policy state from **Report-only** to **On**
+- Replaced the Microsoft 365 Group with a Security Group
+- Added the test user to the Security Group
+- Verified successful policy implementation using Sign-in Logs
