@@ -1,0 +1,674 @@
+[7/11/2026, 12:35:46 AM] [Log] -------------------------------------------
+------------------
+[7/11/2026, 12:35:46 AM] [Log] crypto.publicDecrypt called
+------------------
+[7/11/2026, 12:35:46 AM] [Log] Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+------------------
+[7/11/2026, 12:35:46 AM] [Log] Buffer (Hex): 75736572406578616d706c652e636f6d
+------------------
+[7/11/2026, 12:35:46 AM] [Log] BrowserWindow created
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("document.loadData") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("document.loadData") result: "{\"snap\":null,\"filePath\":\"D:\\\\Git\\\\labs\\\\Azure-Hybrid-Cloud\\\\docs\\\\05-Conditional-Access-and-MFA.md\",\"backups\":null,\"shouldReadFromDisk\":false,\"windowCounts\":1}"
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.getRecentFiles") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.getRecentFiles") result: {"files":[{"name":"05-Conditional-Access-and-MFA.md","path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","date":1783695946573},{"name":"06-Troubleshooting.md","path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md","date":1783593903411},{"name":"README.md","path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\README.md","date":1783593427700},{"name":"readme.md","path":"D:\\Git\\labs\\Azure-Network\\readme.md","date":1783537786796},{"name":"07-Troubleshooting.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\07-Troubleshooting.md","date":1783533706095},{"name":"Bastion.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\Bastion.md","date":1783341324751},{"name":"05-Remote-User-Connectivity-Point-to-Site-VPN.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\05-Remote-User-Connectivity-Point-to-Site-VPN.md","date":1783341317169},{"name":"01-Overview-and-Desgin.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\01-Overview-and-Desgin.md","date":1783267965033},{"name":"03-Centralized-network-security-firewall.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\03-Centralized-network-security-firewall.md","date":1783178750312},{"name":"04-hybrid-connectivity-site-to-site-vpn.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\04-hybrid-connectivity-site-to-site-vpn.md","date":1783178324219},{"name":"02-Hub-Spoke-Virutal Network.md","path":"D:\\Git\\labs\\Azure-Network\\docs\\02-Hub-Spoke-Virutal Network.md","date":1783177819040}],"folders":[{"name":"docs","path":"D:\\Git\\labs\\Azure-Network\\docs","date":"2026-07-03T05:41:38.206Z"}]}
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("document.getSnapWithValidation") args: [null]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("document.getSnapWithValidation") result: "{\"snap\":null,\"shouldReadFromDisk\":false}"
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.getDownloadingDicts") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.getDownloadingDicts") result: "[]"
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.getUserDictionaryPath") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.getUserDictionaryPath") result: "C:\\Users\\joest\\AppData\\Roaming\\Typora\\typora-dictionaries"
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.getUserDict") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.getUserDict") result: "{}"
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("theme.setThemeSource") args: ["system"]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("theme.setThemeSource") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.put") args: ["backgroundColor","#FFFFFF"]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("setting.put") args: ["isDarkMode",false]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("document.hasDuplicateName") args: ["05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("document.hasDuplicateName") result: false
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("document.setLastSync") args: ["2026-07-10T15:05:47.399Z"]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.setTitle") args: ["05-Conditional-Access-and-MFA.md - Typora"]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[7/11/2026, 12:35:47 AM] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[7/11/2026, 12:35:48 AM] [Log] [IPC] .invoke("setting.getKeyBinding") args: []
+------------------
+[7/11/2026, 12:35:48 AM] [Log] [IPC] .handle("setting.getKeyBinding") result: {"_useLowerCase":true}
+------------------
+[7/11/2026, 12:36:28 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 12:36:28 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:44:37 AM] [Log] -------------------------------------------
+------------------
+[7/11/2026, 12:44:37 AM] [Log] crypto.publicDecrypt called
+------------------
+[7/11/2026, 12:44:37 AM] [Log] Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+------------------
+[7/11/2026, 12:44:37 AM] [Log] Buffer (Hex): 75736572406578616d706c652e636f6d
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783697049403.224]
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783697049403.224}]
+------------------
+[7/11/2026, 12:54:09 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:00:55 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 1:00:55 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 1:00:58 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:00:58 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .invoke("window.setInSourceMode") args: [true]
+------------------
+[7/11/2026, 1:01:48 AM] [Log] [IPC] .handle("window.setInSourceMode") result: 
+------------------
+[7/11/2026, 1:01:49 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 1:01:49 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 1:01:49 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 1:01:49 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783697534412.3125]
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783697534412.3125}]
+------------------
+[7/11/2026, 1:02:14 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:02:34 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:02:34 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783697609918.8926]
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783697609918.8926}]
+------------------
+[7/11/2026, 1:03:29 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:03:33 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:03:33 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .invoke("window.setInSourceMode") args: [false]
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .handle("window.setInSourceMode") result: 
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 1:03:52 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783697662095.2632]
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783697662095.2632}]
+------------------
+[7/11/2026, 1:04:22 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:04:44 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:04:44 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783697687281.7346]
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783697687281.7346}]
+------------------
+[7/11/2026, 1:04:47 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 1:05:10 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 1:05:10 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 1:20:35 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 1:20:35 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 1:20:35 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 1:20:35 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783701814075.415]
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783701814075.415}]
+------------------
+[7/11/2026, 2:13:34 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:13:49 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:13:49 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783701836355.646]
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783701836355.646}]
+------------------
+[7/11/2026, 2:13:56 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:16:27 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:16:27 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:16:27 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:16:27 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:16:34 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:16:34 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702023422.7195]
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702023422.7195}]
+------------------
+[7/11/2026, 2:17:03 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:17:24 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:17:24 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:19:12 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:13 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:19:13 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:19:13 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:19:13 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .invoke("webContents.cut") args: []
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .handle("webContents.cut") result: 
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:19:16 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:18 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:19:18 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:19:19 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:19:23 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:19:23 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:24 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:19:24 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:19:24 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:19:24 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:19:32 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:19:32 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702197636.7075]
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702197636.7075}]
+------------------
+[7/11/2026, 2:19:57 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:20:23 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:20:23 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:20:54 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:20:54 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:20:54 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:20:54 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:21:11 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:21:11 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:21:11 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:21:11 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:21:21 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:21:21 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:21:21 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:21:21 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .invoke("window.setInSourceMode") args: [true]
+------------------
+[7/11/2026, 2:21:23 AM] [Log] [IPC] .handle("window.setInSourceMode") result: 
+------------------
+[7/11/2026, 2:21:24 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:21:24 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:21:24 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:21:24 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702300082.069]
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702300082.069}]
+------------------
+[7/11/2026, 2:21:40 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:21:48 AM] [Log] [IPC] .invoke("window.setInSourceMode") args: [false]
+------------------
+[7/11/2026, 2:21:48 AM] [Log] [IPC] .handle("window.setInSourceMode") result: 
+------------------
+[7/11/2026, 2:21:49 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 2:21:49 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 2:21:49 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 2:21:49 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702310057.7659]
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702310057.7659}]
+------------------
+[7/11/2026, 2:21:50 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:21 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:21 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:30 AM] [Log] [IPC] .invoke("webContents.copy") args: []
+------------------
+[7/11/2026, 2:22:30 AM] [Log] [IPC] .handle("webContents.copy") result: 
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702359443.6318]
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702359443.6318}]
+------------------
+[7/11/2026, 2:22:39 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:41 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:41 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702364186.8423]
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702364186.8423}]
+------------------
+[7/11/2026, 2:22:44 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:52 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:52 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md"]
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783702376440.1904]
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\05-Conditional-Access-and-MFA.md","summary":"# 05 Conditional Access and Multi-Factor Authentication\r\n\r\n## Overview\r\n\r\n**Conditional Access** is an Entra ID feature that controls when users are allowed to access certain cloud resources by evalua","lastModifiedDate":1783702376440.1904}]
+------------------
+[7/11/2026, 2:22:56 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------

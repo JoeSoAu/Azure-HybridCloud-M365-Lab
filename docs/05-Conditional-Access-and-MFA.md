@@ -224,95 +224,53 @@ After creating these 2 conditional Access policies, we can see them in the Condi
 
 
 
-## Authentication method Registration
+## Authentication method for MFA Registration
 
-From the steps above , we have defined 
+From the steps above , we have defined the Conditional Access policy which requires MFA for the Finance group where test user paul_s@joeso.au is in. and we set Microsoft Authenticator and SMS as authentication methods for Finance group.
 
-After Conditional Access was enabled, the  signed in to Azure Portal.
+Now we use paul_@joeso.au to sign in the Azure Portal
 
-Since no MFA method had previously been registered, Microsoft Entra redirected the user to complete the MFA registration process.
+Since it is the first time that user sign in Azure Portal, and MFA is required because the user meets the condition of the CA001. the user need to do the **authentication method registration** after input of the user name and password. 
 
-Microsoft Authenticator was installed on a mobile device and linked to the user account by scanning the QR code displayed during registration.
+According to the authentication policies, the user can choose to register Microsoft Authenticator or SMS. We chose to register **SMS** here
 
-After registration was completed, subsequent sign-ins required approval through Microsoft Authenticator before Azure Portal access was granted.
+> <img title="" src="../screenshots/c10.jpg" alt="" width="60%" data-align="center">
 
-> *Screenshot: Microsoft Authenticator Registration*
+> <img title="" src="../screenshots/c11.jpg" alt="" width="60%" data-align="center">
+
+After registration was completed, subsequent sign-in required SMS authentication before the user can sign in the Azure Portal.
+
+<img title="" src="../screenshots/c13.jpg" alt="" width="60%" data-align="center">
+
+
+
+><img title="" src="../screenshots/c12.jpg" alt="" width="70%" data-align="center">
 
 ---
 
 
-
----
 
 ## Policy Validation
 
-After completing MFA registration, Azure Portal sign-in was tested again.
+Now the conditional access policies have been applied, user registered the MFA authentication method and sign in to portal. 
 
-Microsoft Entra Sign-in Logs were then reviewed to verify that:
+As the administrator, we need to verify if the **Conditional Access policy** was was successfully applied
 
-- User authentication succeeded
-- Conditional Access policy was evaluated
-- CA001 was successfully applied
-- MFA requirement was satisfied
+We can accomplish this by using the Sign-in Logs in the Entra ID Admin Portal
 
-The Sign-in Logs provide one of the most valuable troubleshooting tools for administrators because they clearly show which Conditional Access policies were evaluated during each authentication attempt.
+```
+Entra ID Admin Portal -> Monitoring & Health -> Sign-in Logs
+```
 
-> *Screenshot: Sign-in Log showing CA001 applied successfully*
 
----
 
-## Troubleshooting
+> <img title="" src="../screenshots/c14.jpg" alt="" width="100%" data-align="center">*Screenshot: Sign-in Log showing CA001 applied successfully*
 
-## Conditional Access Policy Was Not Applied
+<img title="" src="../screenshots/c15.jpg" alt="" width="90%" data-align="center">
 
-### Issue
+## Summary
 
-Although the test user successfully signed in to Azure Portal, the Sign-in Logs did not show that the Conditional Access policy had been applied.
-
-### Investigation
-
-Two configuration issues were identified.
-
-The first issue was that the policy remained in **Report-only** mode instead of **On**. Report-only mode evaluates policies without enforcing them.
-
-After changing the policy state to **On**, the policy still did not apply.
-
-Further investigation showed that the policy targeted a **Microsoft 365 Group** instead of a **Security Group**.
-
-A new Security Group named **Finance** was created, the test user was added to the group, and the Conditional Access policy was updated to target the new Security Group.
-
-After signing in again, Sign-in Logs confirmed that the policy was successfully evaluated and enforced.
-
-### Resolution
-
-- Changed policy state from **Report-only** to **On**
-- Replaced the Microsoft 365 Group with a Security Group
-- Added the test user to the Security Group
-- Verified successful policy evaluation using Sign-in Logs
-
-### Lesson Learned
-
-Always verify both the policy state and the target group assignment when troubleshooting Conditional Access policies. Sign-in Logs provide the most reliable evidence that a policy has been evaluated and applied.
-
----
-
-## Microsoft Authenticator Registration
-
-### Issue
-
-Before Conditional Access could require MFA, the user had not registered any authentication method.
-
-### Resolution
-
-The user completed Microsoft Authenticator registration by scanning the QR code presented during the first sign-in.
-
-Subsequent sign-ins successfully prompted Microsoft Authenticator for MFA approval.
-
-### Lesson Learned
-
-Authentication Methods define which MFA methods users may register. Conditional Access determines when those registered methods must be used.
-
----
+This lab demonstrated how Microsoft Entra **Conditional Access** and **Multi-Factor Authentication** work together to secure cloud identities.
 
 ## Lessons Learned
 
@@ -327,17 +285,3 @@ Key takeaways include:
 - Sign-in Logs are essential for validating and troubleshooting Conditional Access policy evaluation.
 - Report-only mode is useful for testing policies before enforcement.
 - Security Groups are recommended when assigning Conditional Access policies in enterprise environments.
-
----
-
-## Summary
-
-This lab demonstrated how Microsoft Entra Conditional Access and Multi-Factor Authentication work together to secure cloud identities.
-
-By implementing Authentication Methods, Conditional Access policies, Microsoft Authenticator registration and Sign-in Log validation, the lab reproduced a common enterprise identity protection workflow and provided hands-on experience in deploying, validating and troubleshooting policy-based authentication in Microsoft Entra ID.
-
-
-
-
-
-During the initial testing, all users were already prompted to register Microsoft Authenticator before any Conditional Access policies had been created. This behaviour was caused by Security Defaults, which automatically enforce baseline identity protection. After Security Defaults were disabled, MFA enforcement was controlled entirely by the custom Conditional Access policies created in this lab.
