@@ -1566,3 +1566,7 @@ DwIDAQAB
 ------------------
 [7/11/2026, 3:14:02 AM] [Log] [IPC] .handle("app.sendEvent") result: 
 ------------------
+[7/11/2026, 3:15:49 AM] [Log] [IPC] .invoke("app.onCloseWin") args: [null]
+------------------
+[7/11/2026, 3:15:49 AM] [Log] [IPC] .handle("app.onCloseWin") result: 
+------------------
