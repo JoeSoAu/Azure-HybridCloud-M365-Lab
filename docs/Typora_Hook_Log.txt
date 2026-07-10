@@ -1438,3 +1438,95 @@ DwIDAQAB
 ------------------
 [7/11/2026, 3:07:40 AM] [Log] [IPC] .handle("app.sendEvent") result: 
 ------------------
+[7/11/2026, 3:11:13 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:11:13 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .invoke("window.setInSourceMode") args: [true]
+------------------
+[7/11/2026, 3:11:19 AM] [Log] [IPC] .handle("window.setInSourceMode") result: 
+------------------
+[7/11/2026, 3:11:20 AM] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[7/11/2026, 3:11:20 AM] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[7/11/2026, 3:11:20 AM] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[7/11/2026, 3:11:20 AM] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md"]
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783705355430.2559]
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md","summary":"# 06 - Troubleshooting and Lessons Learned\r\n\r\n## Background\r\n\r\nBuilding the hybrid cloud environment was not completely smooth. Several issues were encountered during the implementation, particularly ","lastModifiedDate":1783705355430.2559}]
+------------------
+[7/11/2026, 3:12:35 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 3:12:40 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:12:40 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md"]
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783705362221.133]
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md","summary":"# 06 - Troubleshooting and Lessons Learned\r\n\r\n## Background\r\n\r\nBuilding the hybrid cloud environment was not completely smooth. Several issues were encountered during the implementation, particularly ","lastModifiedDate":1783705362221.133}]
+------------------
+[7/11/2026, 3:12:42 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 3:12:46 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:12:46 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["willSave","D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md"]
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .invoke("document.setLastSync") args: [1783705368119.6636]
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,true]
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .invoke("app.sendEvent") args: ["didSave",{"path":"D:\\Git\\labs\\Azure-Hybrid-Cloud\\docs\\06-Troubleshooting.md","summary":"# 06 - Troubleshooting and Lessons Learned\r\n\r\n## Background\r\n\r\nBuilding the hybrid cloud environment was not completely smooth. Several issues were encountered during the implementation, particularly ","lastModifiedDate":1783705368119.6636}]
+------------------
+[7/11/2026, 3:12:48 AM] [Log] [IPC] .handle("app.sendEvent") result: 
+------------------

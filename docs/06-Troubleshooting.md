@@ -429,11 +429,16 @@ After signing in again, Sign-in Logs showed that the policy was successfully app
 
 > <img title="" src="../screenshots/c19.jpg" alt="" width="70%" data-align="center">
 
-
-
 ### Resolution
 
 - Changed policy state from **Report-only** to **On**
+
 - Replaced the Microsoft 365 Group with a Security Group
+
 - Added the test user to the Security Group
+
 - Verified successful policy implementation using Sign-in Logs
+
+### Lesson Learned
+
+  Always verify the policy state through Sign-in Log. It provide a reliable evidence that a policy has been applied or not.
